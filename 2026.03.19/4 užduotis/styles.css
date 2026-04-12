@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    background-image: url(IMG/gamta.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 600px;
+    position: relative;
+}
+
+.text {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.firstline {
+    position: absolute;
+    top: 50px;
+    left: 600px;
+}
+
+.secondline {
+    position: absolute;
+    top: 80px;
+    left: 650px;
+}
+
+.thirdline {
+    position: absolute;
+    top: 110px;
+    left: 700px;
+    
+}

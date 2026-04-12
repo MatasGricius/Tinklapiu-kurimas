@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  width: 400px;
+  height: 600px;
+  background-color: rgb(136, 0, 0);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  border: 5px dashed rgb(61, 61, 255);
+  width: 90%;
+  height: 90%;
+}
+
+figure {
+  padding-top: 5%;
+  text-align: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

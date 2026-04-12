@@ -1,0 +1,131 @@
+:root {
+    --lightgrey: #fdfaf6;
+    --pink: #f29191;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--lightgrey);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* NAV */
+
+.navigation {
+    background-color: var(--pink);
+    color: var(--lightgrey);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-logo {
+    /* display: inline-block; */
+    padding: 1em 1em;
+}
+
+.navigation ul {
+    /* display: inline-block; */
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.navigation li {
+    /* display: inline-block; */
+    
+}
+
+.navigation a {
+    color: var(--lightgrey);
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em 2em;
+}
+
+/* MAIN */
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.site-container {
+    display: flex;
+}
+
+section {
+    padding: 1em;
+}
+
+.section-left {
+    width: 30%;
+}
+
+.section-right {
+    width: 70%;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--pink);
+    color: var(--lightgrey);
+    padding: 1em;
+}
+
+
+
+@media (max-width: 1200px) {
+
+    /* ...rules here apply to devices from 993px to 1200px (inclusive)... */
+  /* .navigation ul {
+    flex-direction: row;
+  }
+
+  .navigation li {
+    flex-direction: row;
+  } */
+}
+
+@media (max-width: 992px) {
+
+    /* ...rules here apply to devices from 769px to 992px (inclusive)... */
+ .site-container {
+    flex-direction: row;
+ }
+
+ .navigation {
+    justify-content: center;
+ }
+}
+
+@media (max-width: 768px) {
+
+    /* ...rules here apply to devices from 0px to 768px (inclusive)... */
+ .site-container {
+    flex-direction: column;
+ }
+
+ .section-left {
+    width: 100%;
+}
+
+.section-right {
+    width: 100%;
+}
+}
+
+@media (max-width: 576px) {
+    
+    .navigation {
+        flex-direction: column;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,9 @@
+.background {
+    background-image: url(IMG/couple.png), url(IMG/bmw.png), url(IMG/garage.jpg);
+    background-size: 500px, 350px, cover;
+    background-position: right bottom, center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+}

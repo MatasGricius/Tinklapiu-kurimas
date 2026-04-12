@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(223, 222, 222);
+    width: 50%;
+    margin: auto;
+    padding: 1rem 6rem 12rem ;
+    position: relative;
+}
+
+.kortelė {
+    background-color: white;
+    width: 70%;
+    position: relative;
+    left: 15rem;
+    padding: 2rem;
+    padding-left: 15rem;
+    border: 1px solid black;
+}
+
+.foto {
+    width: 50%;
+    position: absolute;
+    bottom: 1rem;
+    left: 5rem;
+}
+

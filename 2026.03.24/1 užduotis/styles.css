@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+}
+
+p {
+    background-color: rgb(19, 33, 160);
+    height: 5rem;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grow {
+    flex-grow: 1;
+    flex-basis: 10rem;
+    height: 15rem;
+}
+
+.purple {
+    background-color: purple;
+    width: 10rem;
+}
+
+.pink {
+    background-color: pink;
+    width: 10rem;
+}
+
+.orange {
+    background-color: orange;
+    width: 10rem;
+}
+
+.grey {
+    background-color: grey;
+    width: 10rem;
+}
