@@ -165,3 +165,26 @@ h1 {
   color: white;
   text-align: center;
 }
+
+/* media queries */
+
+/* smartphone */
+
+@media (max-width: 767px) {
+  .articles {
+    flex-direction: column;
+  }
+
+  .article-offers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .offers-freight {
+    width: 70%;
+  }
+
+  .why-us {
+    flex-direction: column;
+  }
+}
